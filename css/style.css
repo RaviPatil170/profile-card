@@ -1,0 +1,122 @@
+/* Put any custom CSS styles here.  */
+/* Be sure to delete the <style> tag in index.html if you want to use this stylesheet. */
+body {
+  margin: 0;
+  font-family: "Noto Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  min-height: 100vh;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.credits {
+  color: #777;
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.credits a {
+  color: #000;
+  font-weight: bold;
+}
+.container{
+  width: 340px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 24px;
+  margin-top: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  
+
+}
+.p{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  
+
+}
+.name{
+  font-weight: 500;
+  font-size: 16px;
+
+}
+.description{
+  font-size: 14px;
+  color: #666;
+}
+.body-content{
+  color: #666;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.p img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  align-items: center;
+}
+.icon-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  
+}
+ion-icon{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: #5c6bc0;
+  
+}
+button{
+  width: 100%;
+  height: 40px;
+  background-color: #5c6bc0;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
